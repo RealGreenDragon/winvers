@@ -64,6 +64,9 @@ def get_version_str():
     """
     Convert get_version() return value in a short string.
 
+    Params:
+        None
+
     Returns:
         str: A string that descript the value returned by get_version()
     """
@@ -76,8 +79,11 @@ def print_version():
     """
     Print get_version() return value in a readable format.
 
-    Raises:
-        EnvironmentError if the currect OS is not Windows
+    Params:
+        None
+
+    Returns:
+        None
     """
     v = get_version()
 

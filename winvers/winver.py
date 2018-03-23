@@ -16,23 +16,23 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
 from __future__ import print_function, unicode_literals
+from .constants import NO_WIN
+
+import sys
 
 def get_version():
     """
     Get the Windows OS version running on the machine.
+    
     Params:
         None
-    Return:
+
+    Returns:
         The Windows OS version running on the machine (comparables with the values list in the class).
-    Raises:
-        EnvironmentError: If the OS is not Windows or Pyhton version is under 2.3
     """
-    import sys
-    # OS and Python version checks
+    # Other OS check
     if not 'win' in sys.platform:
-        raise EnvironmentError('This method works only on Windows')
-    if sys.version_info < (2, 3):
-        raise EnvironmentError('This method works only on Python 2.3.x or newer')
+        return NO_WIN
     # Get infos
     win_ver = sys.getwindowsversion()
     try:
@@ -40,7 +40,7 @@ def get_version():
         major, minor, build = win_ver.platform_version
     except AttributeError:
         if sys.version_info < (3, 0):
-            # Python 2.3.x - 2.7.x -> Use 'platform' module to ensure the correct values (seems that Win 10 is not correctly detected)
+            # Python 2.7.x -> Use 'platform' module to ensure the correct values (seems that Win 10 is not correctly detected)
             from platform import _get_real_winver
             major, minor, build = _get_real_winver(win_ver.major, win_ver.minor, win_ver.build)
             major, minor, build = int(major), int(minor), int(build) # 'long' to 'int'
