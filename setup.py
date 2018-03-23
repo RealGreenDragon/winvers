@@ -1,8 +1,8 @@
 from setuptools import setup
 
 setup(
-    name = 'winver',
-    packages = ['winver'],
+    name = 'winvers',
+    packages = ['winvers'],
     version = '0.1',
     description = 'Definitive Windows version checker for Python',
     long_description=open("README.rst").read(),
