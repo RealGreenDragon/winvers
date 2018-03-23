@@ -1,4 +1,4 @@
-winver
+winvers
 ------
 
 Definitive Windows version checker for Python
@@ -57,12 +57,12 @@ Example
 
 ::
 
-    import winver
+    import winvers
 
-    if winver.get_version() >= winver.WIN_VISTA:
+    if winvers.get_version() >= winvers.WIN_VISTA:
         print('Your OS is newer than Windows XP')
 
-    if winver.get_version() >= winver.WIN_10:
+    if winvers.get_version() >= winvers.WIN_10:
         print('Your OS is Windows 10')
 
 Sources
