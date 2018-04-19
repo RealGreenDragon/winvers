@@ -3,14 +3,17 @@
 Definitive Windows version checker for Python
 
 ## This module provides
+
 -   A list of Windows versions constants (comparable between them)
 -   A function to get the Windows OS version running on the machine
 
 ## Compatibility
+
 -   Python 2.7.x
 -   Python 3.x and newer
 
 ## Constants list
+
     NO_WIN
     WIN_10_1709
     WIN_10_1703
@@ -44,6 +47,7 @@ Definitive Windows version checker for Python
     WIN_SERVER_2003
 
 ## Example
+
     import winvers
 
     if winvers.get_version() >= winvers.WIN_VISTA:
@@ -53,6 +57,7 @@ Definitive Windows version checker for Python
         print('Your OS is Windows 10')
 
 ## Sources
+
 - <https://docs.python.org/2/library/sys.html#sys.getwindowsversion>
 - <https://docs.python.org/3/library/sys.html#sys.getwindowsversion>
 - [https://en.wikipedia.org/wiki/Windows\\\_10\\\_version\\\_history](https://en.wikipedia.org/wiki/Windows\_10\_version\_history)
