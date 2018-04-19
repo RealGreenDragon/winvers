@@ -3,9 +3,9 @@ from setuptools import setup
 setup(
     name = 'winvers',
     packages = ['winvers'],
-    version = '0.1.1',
+    version = '0.1.2',
     description = 'Definitive Windows version checker for Python',
-    long_description=open("README.rst").read(),
+    long_description=open("README.md").read(),
     author = 'Daniele Giudice',
     license = 'GPL v3',
     python_requires='>=2.7, <4',
