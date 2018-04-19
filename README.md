@@ -61,5 +61,5 @@ Definitive Windows version checker for Python
 - <https://docs.python.org/2/library/sys.html#sys.getwindowsversion>
 - <https://docs.python.org/3/library/sys.html#sys.getwindowsversion>
 - [https://en.wikipedia.org/wiki/Windows\\\_10\\\_version\\\_history](https://en.wikipedia.org/wiki/Windows\_10\_version\_history)
--   [https://en.wikipedia.org/wiki/Windows\\\_Server\\\_2016\#Version\\\_history](https://en.wikipedia.org/wiki/Windows\_Server\_2016#Version\_history)
--   <https://msdn.microsoft.com/en-us/library/windows/desktop/ms724832(v=vs.85).aspx>
+- [https://en.wikipedia.org/wiki/Windows\\\_Server\\\_2016\#Version\\\_history](https://en.wikipedia.org/wiki/Windows\_Server\_2016#Version\_history)
+- <https://msdn.microsoft.com/en-us/library/windows/desktop/ms724832(v=vs.85).aspx>
