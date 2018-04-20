@@ -1,4 +1,5 @@
 [![PyPi.org Version](https://img.shields.io/pypi/v/winvers.svg)](https://pypi.org/project/winvers/)
+[![PyPi.org License](https://img.shields.io/pypi/l/winvers.svg)](https://pypi.org/project/winvers/)
 [![PyPi.org Py Versions](https://img.shields.io/pypi/pyversions/winvers.svg)](https://pypi.org/project/winvers/)
 
 # winvers
