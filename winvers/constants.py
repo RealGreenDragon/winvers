@@ -16,6 +16,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
 # Windows Client OSs
+WIN_10_1803             = (10, 0, 17134, 0) # Win 10 Redstone 4 (April Update)
 WIN_10_1709             = (10, 0, 16299, 0) # Win 10 Redstone 3 (Fall Creators Update)
 WIN_10_1703             = (10, 0, 15063, 0) # Win 10 Redstone 2 (Creators Update)
 WIN_10_1607             = (10, 0, 14393, 0) # Win 10 Redstone 1 (Anniversary Update)
