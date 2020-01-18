@@ -23,11 +23,15 @@ import sys
 
 _STR_WIN = {
     # Windows Client OSs
-    WIN_10_1709             : "Windows 10 Build 1709",
-    WIN_10_1703             : "Windows 10 Build 1703",
-    WIN_10_1607             : "Windows 10 Build 1607",
-    WIN_10_1511             : "Windows 10 Build 1511",
-    WIN_10_1507             : "Windows 10 Build 1507",
+    WIN_10_19H2             : "Windows 10 19H2 (May 2019 Update)",
+    WIN_10_19H1             : "Windows 10 19H1 (October 2018 Update)",
+    WIN_10_1809             : "Windows 10 Redstone 5 (October 2018 Update)",
+    WIN_10_1803             : "Windows 10 Redstone 4 (April 2018 Update)",
+    WIN_10_1709             : "Windows 10 Redstone 3 (Fall Creators Update)",
+    WIN_10_1703             : "Windows 10 Redstone 2 (Creators Update)",
+    WIN_10_1607             : "Windows 10 Redstone 1 (Anniversary Update)",
+    WIN_10_1511             : "Windows 10 Threshold 2 (November Update)",
+    WIN_10_1507             : "Windows 10 Threshold 1 (First Public Release)",
     WIN_10                  : "Windows 10",
     WIN_8_1                 : "Windows 8.1",
     WIN_8                   : "Windows 8",

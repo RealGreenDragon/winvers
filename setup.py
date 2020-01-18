@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name = 'winvers',
     packages = ['winvers'],
-    version = '0.1.4',
+    version = '0.1.5',
     description = 'Definitive Windows version checker for Python',
     long_description=open("README.md").read(),
     long_description_content_type='text/markdown',

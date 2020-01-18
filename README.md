@@ -19,6 +19,9 @@ Definitive Windows version checker for Python
 ## Constants list
 
     NO_WIN
+    WIN_10_19H2
+    WIN_10_19H1
+    WIN_10_1809
     WIN_10_1803
     WIN_10_1709
     WIN_10_1703
