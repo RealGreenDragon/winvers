@@ -23,8 +23,9 @@ import sys
 
 _STR_WIN = {
     # Windows Client OSs
-    WIN_10_19H2             : "Windows 10 19H2 (May 2019 Update)",
-    WIN_10_19H1             : "Windows 10 19H1 (October 2018 Update)",
+    WIN_10_20H1             : "Windows 10 20H1 (May 2020 Update)",
+    WIN_10_19H2             : "Windows 10 19H2 (October 2019 Update)",
+    WIN_10_19H1             : "Windows 10 19H1 (May 2019 Update)",
     WIN_10_1809             : "Windows 10 Redstone 5 (October 2018 Update)",
     WIN_10_1803             : "Windows 10 Redstone 4 (April 2018 Update)",
     WIN_10_1709             : "Windows 10 Redstone 3 (Fall Creators Update)",
@@ -49,6 +50,11 @@ _STR_WIN = {
     WIN_2000                : "Windows 2000",
 
     # Windows Server OSs
+    WIN_SERVER_2019_2004    : "Windows Server 2019 Build 2004",
+    WIN_SERVER_2019_1909    : "Windows Server 2019 Build 1909",
+    WIN_SERVER_2019_1903    : "Windows Server 2019 Build 1903",
+    WIN_SERVER_2019_1809    : "Windows Server 2019 Build 1809",
+    WIN_SERVER_2016_1803    : "Windows Server 2016 Build 1803",
     WIN_SERVER_2016_1709    : "Windows Server 2016 Build 1709",
     WIN_SERVER_2016_1607    : "Windows Server 2016 Build 1607",
     WIN_SERVER_2016         : "Windows Server 2016",

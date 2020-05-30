@@ -16,9 +16,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
 # Windows Client OSs
-#WIN_10_20H1             = (10, 0, , 0) # Win 10 20H1 ()
-WIN_10_19H2             = (10, 0, 18363, 0) # Win 10 19H2 (May 2019 Update)
-WIN_10_19H1             = (10, 0, 18362, 0) # Win 10 19H1 (October 2018 Update)
+WIN_10_20H1             = (10, 0, 19041, 0) # Win 10 20H1 (May 2020 Update)
+WIN_10_19H2             = (10, 0, 18363, 0) # Win 10 19H2 (October 2019 Update)
+WIN_10_19H1             = (10, 0, 18362, 0) # Win 10 19H1 (May 2019 Update)
 WIN_10_1809             = (10, 0, 17763, 0) # Win 10 Redstone 5 (October 2018 Update)
 WIN_10_1803             = (10, 0, 17134, 0) # Win 10 Redstone 4 (April 2018 Update)
 WIN_10_1709             = (10, 0, 16299, 0) # Win 10 Redstone 3 (Fall Creators Update)
@@ -43,6 +43,11 @@ WIN_XP                  = (5, 1, 0, 0)
 WIN_2000                = (5, 0, 0, 0)
 
 # Windows Server OSs
+WIN_SERVER_2019_2004    = (10, 0, 19041, 1) # Win Server 2019 fourth RTM
+WIN_SERVER_2019_1909    = (10, 0, 18363, 1) # Win Server 2019 third RTM
+WIN_SERVER_2019_1903    = (10, 0, 18362, 1) # Win Server 2019 second RTM
+WIN_SERVER_2019_1809    = (10, 0, 17763, 1) # Win Server 2019 first RTM
+WIN_SERVER_2016_1803    = (10, 0, 17134, 1) # Win Server 2016 third RTM
 WIN_SERVER_2016_1709    = (10, 0, 16299, 1) # Win Server 2016 second RTM
 WIN_SERVER_2016_1607    = (10, 0, 14393, 1) # Win Server 2016 first RTM
 WIN_SERVER_2016         = (10, 0, 0, 1)     # Win Server 2016 base version
